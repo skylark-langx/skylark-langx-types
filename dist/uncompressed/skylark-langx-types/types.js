@@ -134,7 +134,6 @@ define([
         }
     }
 
-
     function isNull(obj) {
         return obj === null;
     }
@@ -216,7 +215,12 @@ define([
 
         isHtmlNode: isHtmlNode,
 
+        isNaN : function (obj) {
+            return isNaN(obj);
+        },
+
         isNull: isNull,
+
 
         isNumber: isNumber,
 
