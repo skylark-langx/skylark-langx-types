@@ -184,8 +184,8 @@ define([
      * // => false
      */
     function isSymbol(value) {
-      return typeof value == 'symbol' ||
-        (isObjectLike(value) && objectToString.call(value) == symbolTag);
+      return typeof value == 'symbol' ;
+       //|| (isObjectLike(value) && objectToString.call(value) == symbolTag); // modified by lwf
     }
 
     // Is a given variable undefined?
