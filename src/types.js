@@ -353,6 +353,8 @@ define([
 
         isHtmlNode: isHtmlNode,
 
+        isInstanceOf,
+
         isNaN : function (obj) {
             return isNaN(obj);
         },
